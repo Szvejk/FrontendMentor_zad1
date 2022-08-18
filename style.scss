@@ -1,11 +1,44 @@
 * {
+	margin: 0;
+	padding: 0;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- 
-img {
-   display: flex;
-  border-radius: 50%;
+}
+
+
+.container {
+    margin: 20px;
+}
+
+.cards {
+	padding: 30px;
+	align-items: center;
+	display: flex;
+    background-color: rgb(131, 46, 131);
+    color: white;
+    position: relative;
+	
+    .foto {
+        display: block;
+        align-items: center;
+    }
+
+	img {
+		border-radius: 50%;
+		padding: 10px;
+	}
+    h3 {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+	.quotation {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        width: 120px;
+        
+    }
 
 }
